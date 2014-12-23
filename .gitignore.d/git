@@ -1,0 +1,10 @@
+*
+!.gitattributes
+!.gitconfig
+!.gitignore.d
+!.gitignore.d/git
+!.gitignore_global
+!.LICENSES.d
+!.LICENSES.d/git
+!.README.d/
+!.README.d/git
