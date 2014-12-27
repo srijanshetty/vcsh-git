@@ -6,3 +6,4 @@
 !.gitignore_global
 !.LICENSES.d
 !.LICENSES.d/LICENSE
+!README.md
