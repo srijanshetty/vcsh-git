@@ -30,3 +30,5 @@
     default = matching
 [help]
 	autocorrect = 0
+[gist]
+	home = /home/srijan/.gists
