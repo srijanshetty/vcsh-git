@@ -32,3 +32,5 @@
 	autocorrect = 0
 [gist]
 	home = /home/srijan/.gists
+[hub]
+	protocol = https
