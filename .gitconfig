@@ -33,4 +33,4 @@
 [gist]
 	home = /home/srijan/.gists
 [hub]
-	protocol = https
+	protocol = git
