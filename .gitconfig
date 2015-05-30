@@ -17,10 +17,10 @@
     current = yellow bold
     remote = red reverse
 [color "diff"]
-    meta = yellow bold
-    frag = black bold
-    old = red bold
-    new = green bold
+    meta = white bold
+    frag = cyan
+    old = red
+    new = green
 [color "status"]
     added = green
     changed = yellow
