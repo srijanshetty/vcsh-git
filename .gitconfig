@@ -37,5 +37,3 @@
 	protocol = git
 [credential]
 	helper = cache --timeout=3600
-[pull]
-	rebase = True
