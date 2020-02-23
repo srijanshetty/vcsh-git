@@ -13,6 +13,7 @@
     attributesfile = ~/.gitattributes
     whitespace = fix,space-before-tab,tab-in-indent,trailing-space
 	safecrlf = false
+	editor = vim
 [color "branch"]
     current = yellow bold
     remote = red reverse
