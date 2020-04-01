@@ -1,9 +1,7 @@
 [alias]
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	ignore = "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
-[user]
-    name = Srijan R Shetty
-    email = srijan.shetty@gmail.com
+	identity = "!git config user.name \"$(git config user.$1.name)\"; git config user.email \"$(git config user.$1.email)\"; :"
 [color]
 	ui = 1
 [apply]
@@ -38,3 +36,16 @@
 	protocol = git
 [credential]
 	helper = cache --timeout=3600
+[user]
+	useConfigOnly = true
+	email = srijan.shetty@gmail.com
+	name = Srijan R Shetty
+[user "gitlab"]
+	name = Srijan R Shetty
+	email = srijan.shetty@gmail.com
+[user "github"]
+	email = srijan.shetty@gmail.com
+	name = Srijan R Shetty
+[user "bitbucket"]
+	name = Srijan R Shetty
+	email = srijan.shetty@gmail.com
