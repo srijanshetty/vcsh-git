@@ -49,3 +49,5 @@
 [user "bitbucket"]
 	name = Srijan R Shetty
 	email = srijan.shetty@gmail.com
+[pull]
+	rebase = True
