@@ -60,3 +60,7 @@ dist/*
 # History Files #
 #################
 .gdb_history
+
+# Session files #
+#################
+.session.json
